@@ -1,0 +1,188 @@
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+   
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+ /*common styles  */
+ /* .text-primary
+ {
+    background-color: #4E47FF;
+    color: white;
+ } */
+  .secondary-bg
+  {
+    background-color: #87b2db;
+  }
+
+ .btn-primary
+ {
+    background-color: #4E47FF;
+    color: white;
+    padding: 12px 26px;
+    border-radius: 10px;
+    border:none;
+     
+ }
+
+  .btn-primary:hover{
+      background-color: #04AA6D; /* Green */
+  color: white;
+
+
+  }
+  .section-title{
+      font-weight: bold;
+      font-size: 35px;
+      color: #252432;
+  } 
+
+  .text-center{
+      text-align: center;
+  }
+
+
+
+
+  /* header */
+  .header{
+    background-image: url('/Assets/Hero-bg.png');
+
+  }
+
+
+
+
+/* nav styles */
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:50px 150px
+}
+
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+    color:  #4E47FF;
+     
+}
+
+
+nav ul li {
+    list-style: none;
+    margin-left: 50px;
+     
+ 
+     
+}
+nav ul {
+    display: flex;
+  
+}
+ 
+     
+     
+
+
+
+nav li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #3C3C3C;
+}
+
+/* Banner styles */
+
+.banner{
+    display: flex;
+    align-items: center;
+    margin: 50px 150px;
+    padding: 150px 155px;
+
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 65px;
+    color: #3C3C3C;
+    margin-bottom: 20px;
+     
+}
+.banner-content{
+    max-width: 580;
+    align-items: center;
+     
+}
+
+/* joinded styles */
+.joined{
+    border-radius: 10px;
+    background: #d7ddf3;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    margin: 50px 150px;
+    padding: 30px 30px;
+     
+ 
+    text-align: center;
+}
+
+.joined-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px;
+     
+}
+
+.item-description{
+    font-weight: 1130;
+    font-size: 300% ;
+    color: #4E47FF;
+    inline-size: bold;
+     
+}
+.item-title{
+    margin: auto;
+}
+/* skills section style  */
+.skills-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 150px;
+    gap: 20px;
+     
+}
+.skill{
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 5px; 
+    padding:  50px;
+    margin: 50px 150;
+}
+
+.reviewer-name{
+
+    align-items: center;
+    justify-content: space-around;
+
+    margin: 50px 150;
+    text-align: center ;
+    padding:  1px;
+    gap:5px
+    
+}
+.image-container{
+    border-radius: 50%;
+    display: inline;
+    align-items: center;
+    justify-content: space-around;
+    margin: 150;
+    text-align: center ;
+    padding:  5px;
+    gap:5px 
+}
+ 
